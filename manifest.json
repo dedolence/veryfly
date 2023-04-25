@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Veryfly",
+    "version": "1.0",
+  
+    "description": "Removes all tweets from verified users on twitter dot com",
+  
+    "icons": {
+      "48": "icons/slash.svg"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.twitter.com/*"],
+        "js": ["veryfly.js"]
+      }
+    ]
+  
+  }
+  
