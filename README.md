@@ -5,7 +5,7 @@ installation:
 
 - download files
 
-- go to about:debugging
+- type in "about:debugging" in the firefox address bar and hit enter
 
 - click on "This Firefox"
 
